@@ -46,7 +46,7 @@ def main():
     plt.xlabel("$r_{ij}$ (nm)")
     plt.ylabel("$E_{pot,morse}$ (kJ/mol)")
     plt.legend(loc="upper right")
-    plt.show()
+    plt.savefig("orig.png")
 
 
 main()
