@@ -43,6 +43,8 @@ def main():
         plt.plot(r_list, vdw_list, label=name)
 
     plt.ylim(-8, 8)
+    plt.xlabel("$r_{ij}$ (nm)")
+    plt.ylabel("$E_{pot,morse}$ (kJ/mol)")
     plt.legend(loc="upper right")
     plt.show()
 
